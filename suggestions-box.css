@@ -1,0 +1,106 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+.right-suggestion-bar {
+  padding: 10px;
+  width: 100%;
+  height: 100%;
+  color: #e2e2e2;
+  background-color: #212121;
+  font-family: sans-serif;
+}
+.right-suggestion-bar ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.right-suggestion-bar ul li {
+  border-bottom: 0.5px solid #e2e2e2;
+  padding: 10px;
+  width: 100%;
+  height: 70px;
+  color: #e2e2e2;
+  background-color: #212121;
+  font-family: sans-serif;
+  list-style-type: none;
+  justify-content: left;
+}
+.right-suggestion-bar ul li:hover {
+  background-color: #333333;
+  opacity: 0.8;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.checkbox {
+  background-color: #212121;
+  color: #e2e2e2;
+  border: none;
+  width: 10px;
+  height: 10px;
+  position: static;
+  justify-content: center;
+}
+.checkbox :hover {
+  background-color: #222222;
+  opacity: 0.8;
+  cursor: pointer;
+  border-radius: 5px;
+  position: relative;
+  text-align: left;
+}
+.add-line {
+  border-bottom: 1px solid #e2e2e2;
+  background-color: #212121;
+  color: #48b4eb;
+  justify-content: end;
+  border: none;
+  float: right;
+  width: 30px;
+  height: 30px;
+}
+.add-line:hover {
+  background-color: #9dcce4;
+  color: #48b4eb;
+  opacity: 0.8;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.cross {
+  background-color: #212121;
+  color: #e2e2e2;
+  justify-content: end;
+  border: none;
+  float: right;
+  width: 20px;
+  height: 20px;
+}
+.cross:hover {
+  background-color: #333333;
+  color: #e2e2e2;
+  opacity: 0.8;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.more {
+  position: relative;
+  border-bottom: 1px dotted black;
+  background-color: #212121;
+  color: #e2e2e2;
+  justify-content: end;
+  border: none;
+  float: right;
+  width: 20px;
+  height: 20px;
+}
+
+.more:hover {
+  background-color: #333333;
+  color: #e2e2e2;
+  opacity: 0.8;
+  cursor: pointer;
+  border-radius: 5px;
+}

@@ -1,0 +1,16 @@
+:root {
+  --primary-grey: #e2e2e2;
+  --primary-black: #222222;
+  --secondary-grey: #333333;
+  --secondary-black: #212121;
+  --primary-blue: #48b4eb;
+}
+
+.right-suggestion-bar {
+  background-color: var(--primary-black);
+  color: var(--primary-grey);
+}
+
+.suggestion-bar-display-and-hide {
+  display: none;
+}
